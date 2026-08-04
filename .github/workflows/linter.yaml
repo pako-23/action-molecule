@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: pako-23/action-linters@v0
+      - uses: pako-23/action-linters@v0.0.1
         env:
           ACTIONLINT: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
