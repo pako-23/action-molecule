@@ -1,0 +1,12 @@
+---
+name: Run Molecule
+description: Run Ansible tests using Molecule.
+author: pako-23 <pasqualepolverino98@gmail.com>
+
+branding:
+  icon: shield
+  color: blue
+
+runs:
+  using: docker
+  image: docker://ghcr.io/pako-23/action-molecule:v0.0.1
