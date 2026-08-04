@@ -1,5 +1,5 @@
 ---
-name: Run Molecule
+name: Run Molecule Tests
 description: Run Ansible tests using Molecule.
 author: pako-23 <pasqualepolverino98@gmail.com>
 
