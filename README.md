@@ -24,6 +24,12 @@ permissions:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    services:
+      docker:
+        image: docker:dind
+        options: --privileged --shm-size=2g
+        volumes:
+          - /var/run/docker.sock:/var/run/docker.sock:ro
     steps:
       - uses: actions/checkout@v7
       - uses: pako-23/action-molecule@v0.0.1
