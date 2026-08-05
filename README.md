@@ -4,7 +4,6 @@
 [![Lint Codebase](https://github.com/pako-23/action-molecule/actions/workflows/linter.yaml/badge.svg)](https://github.com/pako-23/action-molecule/actions/workflows/linter.yaml)
 [![License](https://img.shields.io/github/license/pako-23/action-molecule)](LICENSE)
 
-
 A GitHub Action that runs Molecule tests on Ansible collections,
 playbooks, and roles.
 
