@@ -12,7 +12,7 @@ playbooks, and roles.
 The following is an example of how to use this action.
 
 ```yaml
-name: Lint Codebase
+name: Run Molecule Tests
 
 on:
   push:
