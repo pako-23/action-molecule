@@ -8,8 +8,6 @@
 A GitHub Action that runs Molecule tests on Ansible collections,
 playbooks, and roles.
 
-
-
 ## Usage
 
 The following is an example of how to use this action.
