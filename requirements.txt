@@ -1,4 +1,4 @@
 ansible==14.2.0
 molecule-plugins[docker]==26.7.15
-molecule==26.6.0
+molecule==26.8.0
 testinfra==6.0.0
